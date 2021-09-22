@@ -7,4 +7,5 @@ class User(AbstractUser):
     last_name = models.CharField(max_length=100)
     phone_no=models.CharField(max_length=10)
     address=models.CharField(max_length=100)
-    
+
+# Create your models here.
